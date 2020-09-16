@@ -7,7 +7,7 @@ var uuidv1 = require("uuid/v1");
 //--------------------------------
 // variables 
 var app = express();
-var PORT = 8080;
+var PORT = process.env.PORT || 3001;
 
 var notesArray = [];
 
